@@ -5,6 +5,10 @@
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
 }
 
+html {
+  font-size: 12px;
+}
+
 ul {
   padding: 0;
 }
@@ -60,26 +64,28 @@ a {
 
 /* HEADER */
 header {
-  color: white;
+  color: #796339;
+  font-weight: bold;
   min-height: 80vh;
   width: 100%;
-  background-image: url("../img/capa-sem-fundo.png");
+  background-image: url("../img/caparuth.jpg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center 104px;
-  background-color: #4F5B6B;
+  background-color: #F1F1F1;
   display: flex;
   align-items: flex-end;
   justify-content: center;
   padding-bottom: 20px;
 }
 
-
+.header h1 {
+  background-color: white;
+  opacity: 80%;
+  font-size: 3rem;
+}
 
 /* --- BOTAO --- */
-
-
-
 
 /* SECAO Maravilhosa */
 .container {
@@ -88,9 +94,13 @@ header {
 }
 
 h2 {
-  font-size: 36px;
+  font-size: 2.5rem;
   text-align: center;
   margin: 36px auto;
+  color: #ddad52;
+  background-color: grey;
+  opacity: 70%;
+
 }
 
 .minibio {
@@ -100,21 +110,24 @@ h2 {
 }
 
 .minibio_img {
-  width: 193px;
-  height: 261px;
-  background-color: #4F5B6B;
+  width: 199px;
+  height: 254px;
   margin-right: 48px;
 }
 
 .minibio p {
   width: 80%;
-  font-size: 30px;
+  font-size: 2rem;
   text-align: justify;
+  color: rgb(91, 89, 89);
+  font-weight: bold;
 }
 
 .citacao {
-  font-size: 36px;
-  border: 1px solid gray;
+  font-size: 2.5rem;
+  color: #868684;
+  font-weight: bold;
+  border: 1px solid #796339;
   padding: 36px;
   line-height: 50px;
   margin: 48px auto;
@@ -123,43 +136,113 @@ h2 {
 
 
 /* AUTORA */
+.historia {
+  align-items: center;
+}
+
 .historia p {
   width: 100%;
-  font-size: 30px;
+  font-size: 2rem;
   text-align: justify;
-  margin-bottom: 20px;
-
-}
-
-.historia h3 {
-  font-size: 36px;
-  text-align: center;
-  margin: 36px auto;
+  margin-bottom: 30px;
+  color: rgb(91, 89, 89);
+  font-weight: bold;
 }
 
 
-.historia img {
-  margin: 30px 0;
-  width: 100%;
-  max-width: 260px;
+.historia-imagem {
+  margin: 30px auto;
+  width: 60%;
+  display: block;
+
 }
 
 /* autora */
 .autora {
-  background-color: #4F5B6B;
+  background-color: #674582;
   height: 260px;
-}
-
-.autora__container {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
 }
 
-.autora>img {
-  max-width: 260px;
+
+.autora img {
+  width: 150px;
+  margin: 1rem;
+}
+
+.rodape {
+  background-color: #323534;
+  color: white;
+}
+
+.rodape__principal {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
-.autorainfo {}
+.rodape__principal > * {
+  margin: 16px 0;
+}
+
+.rodape__navegacao > li {
+  font-size: 14px;
+  margin: 8px;
+}
+
+.rodape__navegacao a {
+  transition: all 0.5s;
+}
+
+.rodape__navegacao a:hover {
+  color: #c083b9;
+}
+
+.rodape__logo {
+  max-width: 200px;
+  align-items: center;
+  justify-content: center;
+}
+
+.rodape__cc {
+  width: 100%;
+  background-color: #292a2a;
+  font-size: 14px;
+  opacity: 0.5;
+  text-align: center;
+  padding: 10px;
+}
+
+/* --- BOTAO --- */
+
+.btn {
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 16px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.btn_roxo {
+  color: white;
+  background-color: #c083b9;
+  display: block;
+  max-width: 200px;
+  text-align: center;
+  transition: all 0.5s;
+  margin: 0 auto;
+}
+
+.btn_roxo:hover,
+.btn_roxo:focus {
+  transform: translateY(-06px);
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+  background-color: rgb(192, 156, 188);
+}
+
 
 /* FOOTER */
 
