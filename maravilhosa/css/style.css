@@ -1,250 +1,262 @@
 * {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
 }
 
 html {
-  font-size: 12px;
+    font-size: 12px;
 }
 
 ul {
-  padding: 0;
+    padding: 0;
 }
 
 li {
-  list-style: none;
+    list-style: none;
 }
 
 a {
-  text-decoration: none;
-  color: inherit;
-  margin: 2px;
+    text-decoration: none;
+    color: inherit;
+}
+
+body{
+    background-color: #F1F1F1;
 }
 
 /* NAVBAR */
 
 .navbar {
-  background-color: #674582;
-  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
-  padding: 24px;
-  z-index: 99;
-  position: fixed;
-  width: 100%;
-  height: 104px;
+    background-color: #674582;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+    padding: 24px;
+    z-index: 99;
+    position: fixed;
+    width: 100%;
+    height: 104px;
 }
 
 .navbar__logo {
-  max-width: 200px;
+    max-width: 200px;
 }
 
 .navbar__box {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 80%;
-  margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .navbar__nav {
-  font-size: 18px;
-  color: #fff;
-  display: flex;
+    font-size: 1.5rem;
+    color: #FFF;
+    display: flex;
 }
 
-
-.navbar__nav>li {
-  margin: 0 16px;
-  font-weight: bold;
+.navbar__nav > li {
+    margin: 0 16px;
+    font-weight: bold;
 }
-
-/* -------------------------------------------------------------------------------- */
-
 
 /* HEADER */
 header {
-  color: #796339;
-  font-weight: bold;
-  min-height: 80vh;
-  width: 100%;
-  background-image: url("../img/caparuth.jpg");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center 104px;
-  background-color: #F1F1F1;
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
-  padding-bottom: 20px;
+    color: #796339;
+    font-weight: bold;
+    min-height: 80vh;
+    width: 100%;
+    background-image: url("../img/caparuth.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center 104px;
+    background-color: #F1F1F1;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 20px;
 }
 
 .header h1 {
-  background-color: white;
-  opacity: 80%;
-  font-size: 3rem;
+    background-color: white;
+    opacity: 80%;
+    font-size: 3rem;
 }
-
-/* --- BOTAO --- */
 
 /* SECAO Maravilhosa */
 .container {
-  max-width: 1260px;
-  margin: 0 auto;
+    max-width: 1260px;
+    margin: 0 auto;
 }
 
 h2 {
-  font-size: 2.5rem;
-  text-align: center;
-  margin: 36px auto;
-  color: #ddad52;
-  background-color: grey;
-  opacity: 70%;
-
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 36px auto;
+    color: #DDAD52;
+    background-color: grey;
+    opacity: 70%;
 }
 
 .minibio {
-  display: flex;
-  max-width: 750px;
-  margin: 0 auto;
+    display: flex;
+    max-width: 750px;
+    margin: 0 auto;
 }
 
 .minibio_img {
-  width: 199px;
-  height: 254px;
-  margin-right: 48px;
+    width: 199px;
+    height: 254px;
+    margin-right: 48px;
 }
 
 .minibio p {
-  width: 80%;
-  font-size: 2rem;
-  text-align: justify;
-  color: rgb(91, 89, 89);
-  font-weight: bold;
+    width: 80%;
+    font-size: 1.5rem;
+    text-align: justify;
+    color: rgb(91, 89, 89);
+    font-weight: bold;
 }
 
 .citacao {
-  font-size: 2.5rem;
-  color: #868684;
-  font-weight: bold;
-  border: 1px solid #796339;
-  padding: 36px;
-  line-height: 50px;
-  margin: 48px auto;
-  text-align: justify;
+    color: #868684;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 36px;
+    margin: 48px auto;
+    border: 1px solid #796339;
+    width: 60%;
+    text-align: justify;
 }
+
 
 
 /* AUTORA */
 .historia {
-  align-items: center;
+    align-items: center;
 }
 
 .historia p {
-  width: 100%;
-  font-size: 2rem;
-  text-align: justify;
-  margin-bottom: 30px;
-  color: rgb(91, 89, 89);
-  font-weight: bold;
+    width: 80%;
+    font-size: 1.5rem;
+    text-align: justify;
+    margin: 0 auto;
+    /*margin-bottom: 0.8rem;*/
+    color: rgb(91, 89, 89);
+    font-weight: bold;
 }
-
 
 .historia-imagem {
-  margin: 30px auto;
-  width: 60%;
-  display: block;
-
+    margin: 30px auto;
+    width: 60%;
+    display: block;
 }
 
-/* autora */
+/* AUTORA */
 .autora {
-  background-color: #674582;
-  height: 260px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: white;
+    background-color: #674582;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 6rem;
 }
-
 
 .autora img {
-  width: 150px;
-  margin: 1rem;
+    width: 150px;
+    border-radius: 10px;
+    margin: 1rem;
 }
 
+.autora-info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5rem;
+}
+
+.autora-info > * {
+    padding: 0.5rem;
+}
+
+.autora-info a:hover {
+    color: #CEA860;
+}
+
+/* FOOTER */
+
 .rodape {
-  background-color: #323534;
-  color: white;
+    background-color: #323534;
+    color: white;
 }
 
 .rodape__principal {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .rodape__principal > * {
-  margin: 16px 0;
+    margin: 16px 0;
 }
 
 .rodape__navegacao > li {
-  font-size: 14px;
-  margin: 8px;
+    font-size: 14px;
+    margin: 8px;
 }
 
 .rodape__navegacao a {
-  transition: all 0.5s;
+    transition: all 0.5s;
 }
 
 .rodape__navegacao a:hover {
-  color: #c083b9;
+    color: #C083B9;
 }
 
 .rodape__logo {
-  max-width: 200px;
-  align-items: center;
-  justify-content: center;
+    max-width: 200px;
+    align-items: center;
+    justify-content: center;
 }
 
 .rodape__cc {
-  width: 100%;
-  background-color: #292a2a;
-  font-size: 14px;
-  opacity: 0.5;
-  text-align: center;
-  padding: 10px;
+    width: 100%;
+    background-color: #292A2A;
+    font-size: 14px;
+    opacity: 0.5;
+    text-align: center;
+    padding: 10px;
+}
+
+.rodape__redes-sociais a {
+    margin: 2px;
 }
 
 /* --- BOTAO --- */
 
-.btn {
-  text-transform: uppercase;
-  font-weight: bold;
-  padding: 16px;
-  border-radius: 5px;
-  font-size: 14px;
+.button {
+    margin: 60px auto;
+    text-align: center;
 }
 
-.btn_roxo {
-  color: white;
-  background-color: #c083b9;
-  display: block;
-  max-width: 200px;
-  text-align: center;
-  transition: all 0.5s;
-  margin: 0 auto;
+.button__link {
+    text-transform: uppercase;
+    background: #C083B9;
+    border-radius: 10px;
+    padding: 15px 46px;
+    color: #FFF;
 }
 
 .btn_roxo:hover,
 .btn_roxo:focus {
-  transform: translateY(-06px);
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
-  background-color: rgb(192, 156, 188);
+    transform: translateY(-06px);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+    background-color: rgb(192, 156, 188);
 }
 
-
-/* FOOTER */
-
-
 /* MEDIA QUERY */
+@media (max-width: 1000px) {
+
+}
